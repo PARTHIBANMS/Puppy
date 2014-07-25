@@ -1,0 +1,36 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.puppy.KidName"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="95dp"
+        android:hint="Enter your name please"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_x="420dp"
+        android:layout_y="99dp"
+        android:text="save" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="103dp"
+        android:text="Kid Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>
+
